@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tgbot_goods_store"
+version = "0.1.0"
+description = ""
+authors = [
+"Glukharev Oleg Anatolyevich - olegglukharev92@gmail.com"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.35"
+emoji = "^1.7.0"
+pyTelegramBotAPI = "^4.4.0"
+tomli = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
